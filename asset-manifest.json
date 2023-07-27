@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/home/static/css/main.fe927caf.css",
-    "main.js": "/home/static/js/main.a51a2200.js",
+    "main.js": "/home/static/js/main.9465553b.js",
     "static/js/787.4b24f717.chunk.js": "/home/static/js/787.4b24f717.chunk.js",
-    "static/media/kimpham.png": "/home/static/media/kimpham.0176a83de91f7ca082a4.png",
+    "static/media/kimpham.png": "/home/static/media/kimpham.5a6c2586cc280a8df7b5.png",
     "index.html": "/home/index.html",
     "main.fe927caf.css.map": "/home/static/css/main.fe927caf.css.map",
-    "main.a51a2200.js.map": "/home/static/js/main.a51a2200.js.map",
+    "main.9465553b.js.map": "/home/static/js/main.9465553b.js.map",
     "787.4b24f717.chunk.js.map": "/home/static/js/787.4b24f717.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fe927caf.css",
-    "static/js/main.a51a2200.js"
+    "static/js/main.9465553b.js"
   ]
 }
