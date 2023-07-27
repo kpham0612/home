@@ -54,7 +54,7 @@ const about = {
   imageLink: require("../editable-stuff/kimpham.png"),
   imageSize: 375,
   message:
-    "Hi my name is Kim! I am a class of 2025 student pursuing a B.S. in Computer Science at UCSC. My passion and interests lies in the realm of full stack development and design. My goal in life is to excel in my career path through commitment, continuous growth, and hard work. Contact: kpham0612@gmail.com",
+    "Hi my name is Kim! I am a class of 2025 student pursuing a Bachelor of Science in Computer Science at UCSC. My passion and interests lies in the realm of full stack development and design. My goal in life is to excel in my career path through commitment, continuous growth, and hard work. Contact Inquiries: kpham0612@gmail.com",
   resume: "https://docs.google.com/document/d/e/2PACX-1vSWn-rj6avA5czaKsyBBX2r32cGGY7zxKbw_NpQMjFOz-MZco5y-ieKOI5mevj7Py6E3MP9owmPQf6s/pub",
 };
 
@@ -101,19 +101,11 @@ const skills = {
   heading: "Skills",
   hardSkills: [
     { name: "Python", value: 15 },
-<<<<<<< HEAD
     { name: "Java", value: 70 },
     { name: "Frontend Development", value: 75 },
     { name: "C++", value: 85 },
     { name: "JavaScript", value: 70 },
     { name: "Backend Development", value: 35 },
-=======
-    { name: "Java", value: 75 },
-    { name: "Frontend Development", value: 80 },
-    { name: "C++", value: 90 },
-    { name: "JavaScript", value: 75 },
-    { name: "Backend Development", value: 45 },
->>>>>>> aa76ec38fb90eae8a063f327fa39e5a38d377097
     { name: "Github", value: 90 },
     { name: "UI/UX Design", value: 80 },
   ],
@@ -121,7 +113,7 @@ const skills = {
     { name: "Ethics and Integrity", value: 80 },
     { name: "Collaboration", value: 90 },
     { name: "Positivity", value: 75 },
-    { name: "Resilience", value: 85 },
+    { name: "Adaptability", value: 85 },
     { name: "Problem Solving", value: 75 },
     { name: "Attention to Detail", value: 90 },
     { name: "Organization", value: 70 },
