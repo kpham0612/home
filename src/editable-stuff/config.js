@@ -27,10 +27,10 @@ const mainBody = {
       image: "fa-linkedin",
       url: "https://www.linkedin.com/in/kim-pham-855897238/",
     },
-    {
-      image: "fa-twitter",
-      url: "https://www.twitter.com",
-    },
+    // {
+    //   image: "fa-twitter",
+    //   url: "https://www.twitter.com",
+    // },
   ],
 };
 
@@ -55,7 +55,7 @@ const about = {
   imageSize: 375,
   message:
     "Hi my name is Kim! I am a class of 2025 student pursuing a Bachelor of Science in Computer Science at UCSC. My passion and interests lies in the realm of full stack development and design. My goal in life is to excel in my career path through commitment, continuous growth, and hard work. Contact Inquiries: kpham0612@gmail.com",
-  resume: "https://docs.google.com/document/d/e/2PACX-1vSWn-rj6avA5czaKsyBBX2r32cGGY7zxKbw_NpQMjFOz-MZco5y-ieKOI5mevj7Py6E3MP9owmPQf6s/pub",
+  resume: "https://docs.google.com/document/d/19Fe9bVaB43b2vLV94f9IdpQtTc-Q5pef1D9GPbWfLv4/edit?usp=sharing",
 };
 
 // PROJECTS SECTION
