@@ -126,7 +126,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I am open and available for internship positions for the 2023-2024 year and am extremely enthusiastic for any opportunities! Please feel free to reach out at",
+    "I am open and available for internship positions for summer 2024 year and am extremely enthusiastic for any opportunities! Please feel free to reach out at",
   email: "kpham0612@gmail.com",
 };
 
