@@ -54,7 +54,7 @@ const about = {
   imageLink: require("../editable-stuff/kimpham.png"),
   imageSize: 375,
   message:
-    "Hi my name is Kim! I am a class of 2025 student pursuing a Bachelor of Science in Computer Science at UCSC. My passion and interests lies in the realm of full stack development and design. My goal in life is to excel in my career path through commitment, continuous growth, and hard work. Contact Inquiries: kpham0612@gmail.com",
+    "Hi my name is Kim! I am a class of 2025 student pursuing a Bachelor of Science in Computer Science at UCSC. My passion and interests lies in the realm of engineering and design. My goal in life is to excel in my career path through commitment, continuous growth, and hard work. Contact Inquiries: kpham0612@gmail.com",
   resume: "https://docs.google.com/document/d/19Fe9bVaB43b2vLV94f9IdpQtTc-Q5pef1D9GPbWfLv4/edit?usp=sharing",
 };
 
@@ -103,21 +103,21 @@ const skills = {
     { name: "C++", value: 90 },
     { name: "Java", value: 80 },
     { name: "Javascript", value: 75 },
-    { name: "Python", value: 20 },
-    { name: "Frontend Development", value: 80 },
-    { name: "Backend Development", value: 45 },
-    { name: "Github", value: 90 },
-    { name: "UI/UX Design", value: 80 },
+    { name: "Python", value: 35 },
+    { name: "Frontend (React, HTML, CSS)", value: 85 },
+    { name: "Backend (Express.js, Django, MongoDB)", value: 50 },
+    { name: "Data Abstractions and Structures", value: 75 },
+    { name: "UI/UX Design", value: 90 },
   ],
   softSkills: [
-    { name: "Ethics and Integrity", value: 90 },
-    { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 80 },
-    { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 80 },
+    { name: "Ethics and Integrity", value: 95 },
+    { name: "Collaboration", value: 95 },
+    { name: "Positivity", value: 90 },
+    { name: "Adaptability", value: 90 },
+    { name: "Problem Solving", value: 90 },
     { name: "Attention to Detail", value: 90 },
-    { name: "Organization", value: 75 },
-    { name: "Creativity", value: 90 },
+    { name: "Organization", value: 85 },
+    { name: "Creativity", value: 95 },
   ],
 };
 
@@ -126,7 +126,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I am open and available for internship positions for summer 2024 year and am extremely enthusiastic for any opportunities! Please feel free to reach out at",
+    "I am open and available for internship positions for summer 2024 and am extremely enthusiastic for any opportunities! Please feel free to reach out at",
   email: "kpham0612@gmail.com",
 };
 
