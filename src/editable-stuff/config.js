@@ -106,7 +106,7 @@ const skills = {
     { name: "Python", value: 35 },
     { name: "Frontend (React, HTML, CSS)", value: 85 },
     { name: "Backend (Express.js, Django, MongoDB)", value: 50 },
-    { name: "Data Abstractions and Structures", value: 75 },
+    { name: "Data Structures and Algorithms", value: 75 },
     { name: "UI/UX Design", value: 90 },
   ],
   softSkills: [
@@ -139,17 +139,18 @@ const experiences = {
       companylogo: require('../assets/img/dell.png'),
       date: 'June 2018 – Present',
     },
-    {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
-    },
+    // {
+    //   role: 'Front-End Developer',
+    //   companylogo: require('../assets/img/boeing.png'),
+    //   date: 'May 2017 – May 2018',
+    // },
   ]
 }
 
-// Blog SECTION
+
 // const blog = {
-//   show: false,
+//   show: true,
+//   heading: "Blog",
 // };
 
 export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
