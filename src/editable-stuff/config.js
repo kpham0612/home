@@ -10,7 +10,7 @@ const mainBody = {
   firstName: "Kim",
   middleName: "",
   lastName: "Pham",
-  message: " Passionate about changing the world with technology and design.",
+  message: " Passionate about changing the world through technology and user-centric solutions.",
   icons: [
     {
       image: "fa-github",
@@ -26,12 +26,8 @@ const mainBody = {
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/kim-pham-855897238/",
+      url: "https://www.linkedin.com/in/kpham0612/",
     },
-    // {
-    //   image: "fa-twitter",
-    //   url: "https://www.twitter.com",
-    // },
   ],
 };
 
@@ -55,7 +51,7 @@ const about = {
   imageLink: require("../editable-stuff/kimpham.png"),
   imageSize: 355,
   message:
-    "Hi, my name is Kim! I am a computer science student who thrives on innovation and creation, with a passion for engineering and design. When I am not having picnics or embarking on sunset hikes, I enjoy immersing myself in the world of code and creation. Contact Inquiries: kpham0612@gmail.com",
+    "Hi, my name is Kim! I am a computer science student who thrives on innovation and creation, with a passion for technology and creating user-centric solutions and products. When I am not embarking on sunset hikes or crafting up late-night ideas, I enjoy immersing myself in the world of code and creation. Contact Inquiries: kpham0612@gmail.com",
   resume: "https://docs.google.com/document/d/19Fe9bVaB43b2vLV94f9IdpQtTc-Q5pef1D9GPbWfLv4/edit?usp=sharing",
 };
 
@@ -150,9 +146,9 @@ const experiences = {
 
 
 
-// const bloglist = {
-//   show: true,
-//   heading: "Blog",
-// };
+const bloglist = {
+  show: true,
+  heading: "Blog",
+};
 
 export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
