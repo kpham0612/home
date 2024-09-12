@@ -9,18 +9,18 @@ const Leadership = ({ heading, message, img, imageSize }) => {
       className="m-0"
       style={{ backgroundColor: "white" }}
     >
-      <h2 className="display-4 pb-5 text-center">{heading}</h2>
+      <h2 className="display-5 pb-6 text-center">{heading}</h2>
       <div className="row">
-        <div className="col-md-5">
+        <div className="col-md-20">
           <p className="lead">{message}</p>
         </div>
-        <div className="col-md-7">
+        <div className="col-md-20">
           <Carousel>
             {img.map((value, index) => {
               return (
                 <Carousel.Item key={index}>
                   <img
-                    className="d-block w-100"
+                    className="d-block w-100 img-fluid"
                     src={value.img}
                     alt="First slide"
                     width={imageSize.width}
@@ -28,9 +28,7 @@ const Leadership = ({ heading, message, img, imageSize }) => {
                   />
                   <Carousel.Caption>
                     <h3>{value.label}</h3>
-                    <p>
-                      {value.paragraph}
-                    </p>
+                    <p>{value.paragraph}</p>
                   </Carousel.Caption>
                 </Carousel.Item>
               );

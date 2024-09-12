@@ -81,11 +81,11 @@ const App = () => {
   const titleRef = React.useRef();
 
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL + "/"}>
+    <BrowserRouter basename= "/home">
       {navBar.show && <Navbar ref={titleRef} />}
       <Routes>
         <Route path="/" exact element={<Home ref={titleRef} />} />
-
+        {/* <Route path="/other" element={<OtherPage />} /> Add this line */}
       </Routes>
       {/* {false && <Route path="/blog" exact component={Blog} />}
       {false && <Route path="/blog/:id" component={BlogPost} />} */}

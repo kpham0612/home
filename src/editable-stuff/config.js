@@ -1,3 +1,4 @@
+// import { Link } from 'react-router-dom';
 // Navigation Bar SECTION
 const navBar = {
   show: true,
@@ -52,9 +53,9 @@ const about = {
   show: true,
   heading: "About Me",
   imageLink: require("../editable-stuff/kimpham.png"),
-  imageSize: 375,
+  imageSize: 355,
   message:
-    "Hi my name is Kim! I am a class of 2025 student pursuing a Bachelor of Science in Computer Science at UCSC. My passion and interests lies in the realm of engineering and design. My goal in life is to excel in my career path through commitment, continuous growth, and hard work. Contact Inquiries: kpham0612@gmail.com",
+    "Hi, my name is Kim! I am a computer science student who thrives on innovation and creation, with a passion for engineering and design. When I am not having picnics or embarking on sunset hikes, I enjoy immersing myself in the world of code and creation. Contact Inquiries: kpham0612@gmail.com",
   resume: "https://docs.google.com/document/d/19Fe9bVaB43b2vLV94f9IdpQtTc-Q5pef1D9GPbWfLv4/edit?usp=sharing",
 };
 
@@ -73,25 +74,25 @@ const repos = {
 
 // Leadership SECTION
 const leadership = {
-  show: false,
-  heading: "Leadership",
-  message:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
+  show: true,
+  heading: "My Brand",
+  // message:
+  //   "Lorees vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
   images: [
     { 
-      img: require("../editable-stuff/kimpham.png"), 
-      label: "First slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+      img: require("../editable-stuff/kimthumbnail.png"), 
+      // label: "First slide label", 
+      // paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
     { 
-      img: require("../editable-stuff/kimpham.png"), 
-      label: "Second slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+      img: require("../editable-stuff/kimthumbnail.png"), 
+      // label: "Second slide label", 
+      // paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
   ],
   imageSize: {
-    width:"615",
-    height:"450"
+    width:"1000",
+    height:"600"
   }
 };
 
@@ -126,7 +127,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I am open and available for internship positions for summer 2024 and am extremely enthusiastic for any opportunities! Please feel free to reach out at",
+    "I am open and available for internship positions for year of 2025 and am extremely enthusiastic for any opportunities! Please feel free to reach out at",
   email: "kpham0612@gmail.com",
 };
 
@@ -145,10 +146,11 @@ const experiences = {
     //   date: 'May 2017 – May 2018',
     // },
   ]
-}
+};
 
 
-// const blog = {
+
+// const bloglist = {
 //   show: true,
 //   heading: "Blog",
 // };

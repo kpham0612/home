@@ -1,6 +1,15 @@
 // migration
 $font-size-display-base: null;
 // end migration
+@import url('https://fonts.googleapis.com/css2?family=Caladea&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+
+
 
 $type-scales: (
   minor-second: 1.067,
@@ -58,6 +67,16 @@ $display-type-scale-base: minor-third;
   .h6 {
     font-size: $font-size-h6;
   }
+}
+
+body {
+  font-family: 'caladea', sans-serif;
+}
+.pb-3 {
+  font-family: 'roboto';
+}
+.lead text-center {
+  font-family: 'arya';
 }
 
 @mixin create-display-type-scale($scale) {
