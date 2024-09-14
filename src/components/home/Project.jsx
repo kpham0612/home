@@ -1,82 +1,34 @@
-import React, { useState, useEffect, useCallback } from "react";
-import Container from "react-bootstrap/Container";
-import { Jumbotron } from "./migration";
-import Row from "react-bootstrap/Row";
-import ProjectCard from "./ProjectCard";
-import axios from "axios";
+// src/components/home/Project.jsx
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-const dummyProject = {
-  name: null,
-  description: null,
-  svn_url: null,
-  stargazers_count: null,
-  languages_url: null,
-  pushed_at: null,
-};
-const API = "https://api.github.com";
-// const gitHubQuery = "/repos?sort=updated&direction=desc";
-// const specficQuerry = "https://api.github.com/repos/hashirshoaeb/";
-
-const Project = ({ heading, username, length, specfic }) => {
-  const allReposAPI = `${API}/users/${username}/repos?sort=updated&direction=desc`;
-  const specficReposAPI = `${API}/repos/${username}`;
-  const dummyProjectsArr = new Array(length + specfic.length).fill(
-    dummyProject
+const ProjectCard = ({ project }) => {
+  return (
+    <div className="col-md-4 mb-4">
+      <div className="card">
+        <img src={project.image} className="card-img-top" alt={project.title} />
+        <div className="card-body">
+          <h5 className="card-title">{project.title}</h5>
+          <p className="card-text">{project.description}</p>
+          <a href={project.link} className="btn btn-primary">View Details</a>
+        </div>
+      </div>
+    </div>
   );
+};
 
-  const [projectsArray, setProjectsArray] = useState([]);
-
-  const fetchRepos = useCallback(async () => {
-    let repoList = [];
-    try {
-      // getting all repos
-      const response = await axios.get(allReposAPI);
-      // slicing to the length
-      repoList = [...response.data.slice(0, length)];
-      // adding specified repos
-      try {
-        for (let repoName of specfic) {
-          const response = await axios.get(`${specficReposAPI}/${repoName}`);
-          repoList.push(response.data);
-        }
-      } catch (error) {
-        console.error(error.message);
-      }
-      // setting projectArray
-      // TODO: remove the duplication.
-      setProjectsArray(repoList);
-    } catch (error) {
-      console.error(error.message);
-    }
-  }, [allReposAPI, length, specfic, specficReposAPI]);
-
-  useEffect(() => {
-    fetchRepos();
-  }, [fetchRepos]);
+const Project = ({ heading, items }) => {
+  if (!items || !items.length) return null;
 
   return (
-    <Jumbotron fluid id="projects" className="bg-light m-0">
-      <Container className="">
-        <h2 className="display-4 pb-5 text-center">{heading}</h2>
-        <Row>
-          {projectsArray.length
-            ? projectsArray.map((project, index) => (
-              <ProjectCard
-                key={`project-card-${index}`}
-                id={`project-card-${index}`}
-                value={project}
-              />
-            ))
-            : dummyProjectsArr.map((project, index) => (
-              <ProjectCard
-                key={`dummy-${index}`}
-                id={`dummy-${index}`}
-                value={project}
-              />
-            ))}
-        </Row>
-      </Container>
-    </Jumbotron>
+    <div className="container">
+      <h2 className="my-4">{heading}</h2>
+      <div className="row">
+        {items.map((project, index) => (
+          <ProjectCard key={index} project={project} />
+        ))}
+      </div>
+    </div>
   );
 };
 
